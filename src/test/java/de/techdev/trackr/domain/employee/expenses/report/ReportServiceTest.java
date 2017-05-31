@@ -41,7 +41,7 @@ public class ReportServiceTest {
 
     @Before
     public void setUp() throws Exception {
-        when(reportRepository.save(any(Report.class))).then(invocation -> invocation.getArguments()[0]);
+       // when(reportRepository.save(any(Report.class))).then(invocation -> invocation.getArguments()[0]);
     }
 
     @Test
